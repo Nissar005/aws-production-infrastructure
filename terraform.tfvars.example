@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars for local use.
+# Do not commit terraform.tfvars because it may contain environment-specific values.
+aws_region   = "ap-south-1"
+project_name = "aws-production-infrastructure"
+environment  = "dev"
+vpc_cidr     = "10.20.0.0/16"
